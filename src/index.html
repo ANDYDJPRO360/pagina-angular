@@ -1,0 +1,79 @@
+<h1>practicando intepolacion en angular<h1>
+  <h3>galeria de imagenes<h3>
+  <img src='https://elblogdeldany.wordpress.com/wp-content/uploads/2012/02/gif-meme-de-silla1.gif'>
+  <img src='https://www.icegif.com/wp-content/uploads/2022/01/icegif-982.gif'>
+  <img src='https://www.icegif.com/wp-content/uploads/icegif-1617.gif'>
+  <img src='https://i.pinimg.com/originals/50/5a/0e/505a0e4591fc8052631bed84ac0de1ee.gif'>
+  <img src='https://i.pinimg.com/originals/50/5a/0e/505a0e4591fc8052631bed84ac0de1ee.gif'>
+  <img src='https://i.gifer.com/hm.gif'>
+  <img src='https://i.gifer.com/origin/ce/ce2c95c4e286110abc5abe7292012641_w200.gif'>
+  <img src='https://media.tenor.com/fqexLBgXet0AAAAM/cholos-bailando_las-bitas.gif'>
+  
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>pagina angular</title>
+      <style>
+          body {
+              font-family: Arial, sans-serif;
+              text-align: center;
+              margin: 20px;
+          }
+          #saludo {
+              margin-top: 20px;
+              font-size: 1.5em;
+          }
+          video {
+              width: 100%;
+              max-width: 600px;
+              margin-top: 20px;
+          }
+      </style>
+  </head>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+        background-image: url('https://i.blogs.es/e78608/microsoft_nostalgic_windows_wallpaper_4k/450_1000.webp'); 
+        background-size: cover; 
+        background-position: center; 
+        color: white; 
+    }
+    #saludo {
+        margin-top: 20px;
+        font-size: 1.5em;
+    }
+    video {
+        width: 100%;
+        max-width: 600px;
+        margin-top: 20px;
+    }
+</style>
+  <body>
+    
+    <h1>hola cual es tu nombre</h1>
+      <button onclick="pedirNombre()">nombre</button>
+      <div id="saludo"></div>
+  
+     
+      <video controls>
+          <source src="https://www.youtube.com/embed/qqqMyxv5al4?si=Aehjc_o2siZ1bFrL" type="https://www.youtube.com/embed/qqqMyxv5al4?si=Aehjc_o2siZ1bFrL">
+          
+      </video>
+  
+      <script>
+          function pedirNombre() {
+              let nombre = prompt("hola");
+              if (nombre) {
+                  document.getElementById("saludo").innerText = `¡Hola, ${nombre}! ¡ este es la pagina de Andy PC `;
+              } else {
+                  document.getElementById("saludo").innerText = "¡Hola! ¿Cuál es tu nombre?";
+              }
+          }
+      </script>
+  </body>
+  </html>
+    
