@@ -1,0 +1,149 @@
+
+
+.bienvenida {
+    text-align: center; 
+}
+
+.bienvenida img {
+    float: right; 
+    width: 300px; 
+    margin-left: 30px; 
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00fa9a; 
+}
+
+/* Menú */
+.menu {
+    background-color: #4CAF50; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #edfd0a;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: rgb(20, 62, 126);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: #12e8f0;
+}
+
+/* Sección de bienvenida */
+.bienvenida {
+    background-color: #FFEB3B; /* Amarillo */
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.bienvenida h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #0de655; /* Verde */
+}
+
+.bienvenida p {
+    font-size: 18px;
+    color: #181a18;
+}
+
+/* Productos */
+.productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.producto {
+    width: 300px;
+    text-align: center;
+    border: 1px solid #2efc05;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+.producto h3 {
+    margin: 10px 0;
+}
+
+.producto button {
+    background-color: #FFEB3B; 
+    color: #4CAF50; 
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.producto button:hover {
+    background-color: #f9d920;
+}
+
+/* Carrito */
+.carrito {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+#carrito-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#carrito-table th, #carrito-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+button#vaciar-carrito {
+    background-color: rgb(30, 255, 0);
+    color: rgb(14, 13, 13);
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button#vaciar-carrito:hover {
+    background-color: rgb(255, 230, 0);
+}
